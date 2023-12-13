@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: black;
+    width: 100%;
+    height: 35px;
+    color: white;
+    display: flex;
+    font-family: sans-serif;
+    padding: 10px 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo span {
+    margin-left: 75px;
+    font-size: 1.2em;
+    letter-spacing: 1.5px;
+}
+nav p{
+    font-family: sans-serif;
+    font-size: 0.7em;
+    margin-left: 75px;
+    letter-spacing: 1px;
+    color: rgb(213, 211, 211);
+}
+.menu {
+    margin-left: 510px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contact {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.contact span {
+    font-size: large;
+    color: orange;
+    margin-left: 55px;
+}
+.vl {
+    border-left: 1px double white;
+    height: 50px;
+    margin-right: 100px;
+}
+.container {
+    display: block;
+}
+.left {
+    float: left;
+    margin-left: 210px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.left h1 {
+    margin-top: 30px;
+    font-size: 2.2em;
+}
+.left span {
+    color: orange;
+    margin-top: 5px;
+    font-size: larger;
+    letter-spacing: 5px;
+}
+.left p {
+    margin-top: 5px;
+}
+.left a {
+    color: black;
+}
+.btn1{
+    border-radius: 2px;
+    background-color: orange;
+    padding: 12px 28px;
+    box-sizing: border-box;
+    border-style: hidden;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    float: right;
+    margin-right: 210px;
+    margin-top: 35px;
+}
+.btn2{
+    border-radius: 2px;
+    background-color: orange;
+    padding: 12px 28px;
+    box-sizing: border-box;
+    border-style: hidden;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.rigth .nextmenu{
+    margin-top: 50px;
+    float: right;
+    margin-right:165px;
+}
+.nextmenu a {
+    color: black;
+    padding: 10px; 
+    font-weight: 450;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.map{
+    margin-top: 150px;
+    margin-left: 958px;
+}
+.dollar{
+    margin-left: 75%; 
+    margin-top: 18px;
+    width: 40px;
+}
+.text{
+    float: right;
+    margin-top: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right:205px;
+}
+
+.dates{
+    background-color: rgb(251, 243, 243);
+    margin-top: 75px;
+    width: 100%;
+    height: 120px;
+}
+.btn3{
+ margin-top: 22px;
+ margin-left: 72%;
+ border-radius: 2px;
+ background-color: orange;
+ padding: 25px 48px;
+ box-sizing: border-box;
+ border-style: hidden;
+ color: white;
+ font-weight: bolder;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: larger;
+}
+.btn4{
+    padding: 15px 38px;
+    margin-top: 22px;
+ margin-left: 40%;
+ border-radius: 2px;
+ font-weight: bolder;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: larger;
+ border-color: orange;
+ color: orange;
+ background-color: white;
+ box-sizing: border-box;
+}
+.para{
+ margin-top: 15px;   
+ margin-left:200px ;
+ font-size: large;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container h2{
+    margin-left:200px;
+    margin-top: 32px;
+}
+.resortimage{
+    margin-left: 198px;
+}
+.resortimage p{
+    margin-top: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.6em;
+    float: right;
+}
+.menu1{
+    margin-right: 485px;
+}
+.menu2{
+margin-right: 560px;
+}
+.menu3{
+margin-right: 450px;
+}
+.menu4{
+    margin-right: 620px;
+}
+.menu5{
+    margin-right: 620px;
+}
+.menu1, .menu2, .menu3, .btn2{
+margin-left: 2%;
+} 
+.menu4 .btn2{
+    margin-left: 1px;
+}
+.menu5 .btn2{
+    margin-top: 20px;
+    margin-left: 6px;
+}
+.nextpage{
+    background-color: rgb(248, 240, 240);
+}
+
+.readmore{
+    margin-left: 200px;
+margin-top: 20px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: medium;
+display:flex;
+margin-right: 250px;
+}
+.more_about{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-left: 160px;
+    margin-top: 40px;
+}
+.bottom-left{
+    position:absolute;
+    bottom: 150px;
+    left: 200px;
+}
+.col-logo{
+    background-color: rgb(246, 245, 245);
+    margin-top: 50px;
+    height: 400px;
+}
+.col-logo .trade {
+    margin-left: 200px;
+    font-size: 2em;
+}
+.col-logo p{
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-left: 200px;
+    letter-spacing: 1px;
+}
+.right_side{
+    margin-right: 120px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.rightcolm{
+    float: right;
+    display: flex;
+}
+.right_side li, .second_rightside li{
+    padding: 5px;
+    list-style-type: none;
+}
+.second_rightside{
+    float: right;
+    margin-right: 300px;
+    list-style-type: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.second_rightside strong{
+    font-size: larger;
+}
+.socialmedia {
+margin-left: 190px;
+margin-top: 200px;
+letter-spacing: 40px;
+}
+.socialmedia hr{
+    margin-top: 20px;
+}
+.socialmedia p{
+    margin-left: 0;
+    font-size: small;
+
+}
+.para2{
+    float: right;
+    margin-right: 220px;
+}
+.slider {
+    width: 500px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: 20;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-container {
+    width: 1500px;
+    background-color: pink;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50px;
+    background-color: rgb(243, 243, 243);
+  }
